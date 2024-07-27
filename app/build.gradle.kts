@@ -58,6 +58,9 @@ android {
 }
 
 dependencies {
+    implementation(project(":data:sport"))
+    implementation(project(":presentation:home"))
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -66,6 +69,8 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.koin.android)
+    implementation(libs.koin.androidx.compose)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
@@ -74,4 +79,6 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    testImplementation(libs.koin.test)
+    androidTestImplementation(libs.koin.android.test)
 }
