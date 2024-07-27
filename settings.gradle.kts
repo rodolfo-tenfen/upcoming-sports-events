@@ -26,3 +26,6 @@ rootProject.name = "Upcoming Sports Events"
 include(":app")
 
 include(":domain:sport")
+
+include(":data:sport")
+include(":data:sport:datasource")
