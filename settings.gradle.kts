@@ -22,4 +22,7 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Upcoming Sports Events"
+
 include(":app")
+
+include(":domain:sport")
