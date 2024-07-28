@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="event_item_remove_from_favorites_button_description">Remove from favorites</string>
+    <string name="event_item_add_to_favorites_button_description">Add to favorites</string>
+    <string name="event_item_vs">vs</string>
+</resources>

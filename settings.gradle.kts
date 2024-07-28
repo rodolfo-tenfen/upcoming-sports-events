@@ -30,4 +30,6 @@ include(":domain:sport")
 include(":data:sport")
 include(":data:sport:datasource")
 
+include(":presentation:eventitem")
+
 include(":presentation:theme")
