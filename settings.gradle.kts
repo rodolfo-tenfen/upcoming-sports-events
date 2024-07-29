@@ -32,5 +32,6 @@ include(":data:sport:datasource")
 
 include(":presentation:eventitem")
 include(":presentation:sportitem")
+include(":presentation:home")
 
 include(":presentation:theme")
