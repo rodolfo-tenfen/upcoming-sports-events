@@ -17,6 +17,7 @@ ktlintGradle = "12.1.1"
 lifecycleRuntimeKtx = "2.8.4"
 materialIconsExtended = "1.6.8"
 minSdk = "28"
+mockk = "1.13.12"
 moshi = "1.15.1"
 retrofit = "2.11.0"
 targetSdk = "34"
@@ -42,6 +43,8 @@ koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
 koin-android-test = { module = "io.insert-koin:koin-android-test", version.ref = "koin" }
 koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koin" }
 koin-test = { module = "io.insert-koin:koin-test", version.ref = "koin" }
+mockk-agent = { module = "io.mockk:mockk-agent", version.ref = "mockk" }
+mockk-android = { module = "io.mockk:mockk-android", version.ref = "mockk" }
 moshi = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
 moshi-adapters = { module = "com.squareup.moshi:moshi-adapters", version.ref = "moshi" }
 moshi-kotlin-codegen = { module = "com.squareup.moshi:moshi-kotlin-codegen", version.ref = "moshi" }
