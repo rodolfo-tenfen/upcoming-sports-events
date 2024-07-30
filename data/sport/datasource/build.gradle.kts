@@ -47,4 +47,8 @@ dependencies {
     implementation(libs.retrofit.converter.moshi)
     implementation(libs.koin.android)
     ksp(libs.moshi.kotlin.codegen)
+
+    testImplementation(libs.junit)
+    testImplementation(libs.mockk.android)
+    testImplementation(libs.mockk.agent)
 }

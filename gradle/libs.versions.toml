@@ -5,6 +5,7 @@ compileSdk = "34"
 composeBom = "2024.04.01"
 composeLiveData = "1.6.8"
 coreKtx = "1.13.1"
+coreTesting = "2.2.0"
 espressoCore = "3.6.1"
 junit = "4.13.2"
 junitVersion = "1.2.1"
@@ -12,11 +13,13 @@ jvmTarget = "1.8"
 koin = "4.0.0-RC1"
 kotlin = "1.9.23"
 kotlinCompilerExtensionVersion = "1.5.13"
+kotlinxCoroutinesTest = "1.6.4"
 ksp = "1.9.23-1.0.20"
 ktlintGradle = "12.1.1"
 lifecycleRuntimeKtx = "2.8.4"
 materialIconsExtended = "1.6.8"
 minSdk = "28"
+mockk = "1.13.12"
 moshi = "1.15.1"
 retrofit = "2.11.0"
 targetSdk = "34"
@@ -25,6 +28,7 @@ targetSdk = "34"
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-testing = { module = "androidx.arch.core:core-testing", version.ref = "coreTesting" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
@@ -42,6 +46,9 @@ koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
 koin-android-test = { module = "io.insert-koin:koin-android-test", version.ref = "koin" }
 koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koin" }
 koin-test = { module = "io.insert-koin:koin-test", version.ref = "koin" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTest" }
+mockk-agent = { module = "io.mockk:mockk-agent", version.ref = "mockk" }
+mockk-android = { module = "io.mockk:mockk-android", version.ref = "mockk" }
 moshi = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
 moshi-adapters = { module = "com.squareup.moshi:moshi-adapters", version.ref = "moshi" }
 moshi-kotlin-codegen = { module = "com.squareup.moshi:moshi-kotlin-codegen", version.ref = "moshi" }
