@@ -1,4 +1,4 @@
-package tenfen.rodolfo.upcomingsportsevents.ui.theme
+package tenfen.rodolfo.presentation.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

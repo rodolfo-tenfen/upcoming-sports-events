@@ -22,4 +22,16 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Upcoming Sports Events"
+
 include(":app")
+
+include(":domain:sport")
+
+include(":data:sport")
+include(":data:sport:datasource")
+
+include(":presentation:eventitem")
+include(":presentation:sportitem")
+include(":presentation:home")
+
+include(":presentation:theme")
