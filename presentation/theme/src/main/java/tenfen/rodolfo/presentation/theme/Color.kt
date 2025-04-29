@@ -1,4 +1,4 @@
-package tenfen.rodolfo.upcomingsportsevents.ui.theme
+package tenfen.rodolfo.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
